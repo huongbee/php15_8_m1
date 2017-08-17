@@ -1,0 +1,15 @@
+img{
+	width: 200px
+}
+.text{
+	color: yellow
+}
+.red{
+	color: red
+}
+
+#text{
+	color: violet;
+	font-weight: bold;
+	
+}
