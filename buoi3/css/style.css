@@ -35,10 +35,17 @@ p{
 	width: 120px;
 	float: left;
 	margin: 10px;
-	padding: 20px
+	padding: 20px;
+
 }
-img.img2{
+.bai2 img:hover{
+	/*cursor: url("../images/1.png"),auto;*/
+	cursor: pointer;
+}
+
+img.img1{
 	float: left;
+
 }
 
 .bai2{

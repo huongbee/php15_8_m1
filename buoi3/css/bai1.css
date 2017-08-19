@@ -1,0 +1,51 @@
+body{
+	background-image: url('../images/nen.jpeg');
+	background-size:  cover;
+	margin: 0;padding: 0
+}
+
+.container{
+	width: 1000px;
+	margin: 0px auto;
+}
+.header{
+	height: 100px;
+	background-color: blue;
+	margin-top: 10px; 
+}
+
+.left{
+	height: 200px;
+	background-color: #b4e251;
+	width: 400px;
+	float: left;
+}
+.right{
+	height: 200px;
+	background-color: #4f4d89;
+	width: 600px;
+	float: left;
+}
+
+
+.left-2{
+	height: 200px;
+	background-color: yellow;
+	width: 600px;
+	float: left;
+}
+.right-2{
+	height: 200px;
+	background-color: black;
+	width: 400px;
+	float: left;
+}
+.content{
+	height: 400px
+}
+.footer{
+	height: 100px;
+	background-color: red;
+	z-index: 10;
+	position: relative;
+}
