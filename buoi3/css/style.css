@@ -1,0 +1,50 @@
+body{
+	background-image: url('../images/nen.jpeg');
+	background-size:  cover;
+}
+.content{
+	text-align: center;
+	width: 500px;
+	margin: 20px auto;
+	font-family: Courier
+}
+h3{
+	background-color: #ffb3b3;
+	text-transform: uppercase;
+	color: red;
+	font-size: 25px;
+	padding-top: 20px
+}
+#content{
+	background-color: 	#ffffcc;
+}
+p{
+	padding: 10px 0
+}
+.p-1{
+	color: blue;
+}
+.p-2{
+	color: red;
+}
+.p-3{
+	color: green
+}
+
+.bai2 img{
+	width: 120px;
+	float: left;
+	margin: 10px;
+	padding: 20px
+}
+img.img2{
+	float: left;
+}
+
+.bai2{
+	border: 2px double blue;
+	width: 500px;
+	margin: 50px auto;
+	padding:  20px;
+	text-align: justify;
+}
