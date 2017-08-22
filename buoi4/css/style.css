@@ -1,0 +1,21 @@
+.container{
+	width: 1024px;
+	margin: 0 auto;
+	
+}
+.product{
+	width: 120px;
+	height: 120px;
+	float: left;
+	border: 1px solid #f3f3f3;
+	margin: 3px;
+	border-radius: 50%;
+	background-color: yellow;
+	opacity: 0.5
+	/*345678*/
+}
+.product img{
+	height: 100px;
+	padding: 10px
+}
+

@@ -1,0 +1,43 @@
+body{
+	background-color: #f3f3f3
+}
+.container{
+	width: 1230px;
+	margin: 0 auto;
+}
+
+.sanpham{
+	width: 400px;
+	margin: 5px;
+	float: left;
+	background-color: #fff
+}
+.hinh img{
+	width: 170px;
+	margin: 5px
+}
+.hinh, .desc{
+	float: left;
+
+}
+
+.hinh{
+	width: 180px;
+}
+.desc{
+	width: 220px
+}
+#khuyenmai{
+	font-family: Tahoma;
+	color: red
+}
+
+.name, .price{
+	font-size: 25px;
+	font-weight: bold;
+	padding-left: 25px;
+	padding-bottom: 15px
+}
+.price{
+	color: red
+}
