@@ -1,0 +1,68 @@
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+
+.maudo{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+
+
+}
+.mauxanh{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: absolute;
+	left: 150px;
+	top:200px;
+	-webkit-transition:all 1s ease;
+	   -moz-transition:all 1s ease;
+	    -ms-transition:all 1s ease; 
+	        transition:all 1s ease;
+	z-index: 1
+}
+.mauxanh:hover{
+	width: 200px;
+	height: 200px
+}
+
+.mauvang{
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	position: absolute;
+	top:250px;
+	left: 170px;
+	/*position: fixed;*/
+}
+
+.baitap1{
+	margin-top: 100px;
+	width: 300px
+}
+
+
+
+
+.top{
+	width: 300px;
+	height: 40px;
+	background-image: url('../images/top.png');
+
+}
+
+.middle{
+	padding: 0 30px;
+	background-image: url('../images/middle.png');
+	background-repeat: repeat-y;
+
+
+}
+.bottom{
+	width: 300px;
+	height: 40px;
+	background-image: url('../images/bottom.png');
+
+}
