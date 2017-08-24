@@ -1,0 +1,44 @@
+.menucha li{
+	list-style-type: none;
+	float: left;
+	background-color: blue;
+	padding: 10px 15px;
+	color: #fff;
+	border-left: 1px solid #fff;
+	text-transform: uppercase;
+
+}
+.menucha li div{
+	width:100%;
+	display: none;
+	position: absolute;
+	left: 0px;
+	margin-top: 10px
+}
+.menucha li div .menucon{
+	width: 33.3333333%;
+	float: left;
+	margin-left: -40px
+}
+.menucha li:hover div{
+	display:block;
+}
+.menucon li{
+	float: none;
+	border-left: none;
+	background-color: violet;
+	-webkit-transition:all 2s ease;
+	-moz-transition:all 2s ease;
+	-ms-transition: all 2s ease; 
+	transition:all 2s ease;
+	width: 100%;
+
+}
+.menucon li:hover{
+	background-color: #f3f3f3;
+	color: blue;
+	cursor: pointer;
+	width: 120%;
+	background-color: yellow
+
+}
