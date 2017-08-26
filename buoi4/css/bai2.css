@@ -41,3 +41,45 @@ body{
 .price{
 	color: red
 }
+
+@media(max-width: 1200px){
+	.container{
+		width: 930px;
+	}
+
+	.sanpham{
+		width: 30.33333333%;
+	}
+
+	.hinh{
+		width: 100%;
+	}
+	.hinh img{
+		margin:0 auto;
+		width:90%;
+	}
+
+}
+
+@media(max-width: 740px){
+	.container{
+		width: 700px;
+	}
+
+	.sanpham{
+		width: 48%;
+	}
+}
+
+
+@media(max-width: 500px){
+	.container{
+		width: 470px;
+	}
+	.sanpham{
+		width: 45%;
+	}
+	.desc{
+		display: none;
+	}
+}
