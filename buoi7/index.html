@@ -9,26 +9,35 @@
 <body>
 	<h2 id="add_text">2345</h2>
 	<img id="light" src="images/pic_bulboff.gif">
-	<button id="turnOn" onclick="turnOn()">Bật đèn</button>
+	<button id="turnTheLight" onclick="turn()">Bật đèn</button>
 
 	<!-- <button id="turnOff">Tắt đèn</button> -->
 </body>
 <script>
 	
+		// document.getElementById('light').src='images/pic_bulbon.gif'
+		// document.getElementById('turnOn').id="turnOff"
+		// document.getElementById('turnOff').innerHTML = "Tắt đèn";
 
-
-	function turnOn() {
-		document.getElementById('light').src='images/pic_bulbon.gif'
-		document.getElementById('turnOn').id="turnOff"
-		document.getElementById('turnOff').innerHTML = "Tắt đèn";
-
+	function turn() {
+		var light = document.getElementById("light");
 		
-		//turnOff();
+		console.log(light); //xem giá trị của biến light
+
+
+		var btn = document.getElementById('turnTheLight');
+		//btn.innerHTML = Bật đèn
+		if(btn.innerHTML != 'Tắt đèn'){
+			light.src = "images/pic_bulbon.gif";
+			btn.innerHTML = 'Tắt đèn';
+		}
+		else{
+			light.src = "images/pic_bulboff.gif";
+			btn.innerHTML = 'Bật đèn';
+		}
 	}
-	function turnOff(){
-		document.getElementById('light').src='images/pic_bulboff.gif'
-		document.getElementById('turnOff').id="turnOn"
-		document.getElementById('turnOn').innerHTML = "Bật đèn";
-	}
+
+
+
 </script>
 </html>
