@@ -1,0 +1,17 @@
+#box{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 180px
+}
+body{
+	margin-left: 20%
+}
+
+#pheptinh{
+	width: 50px
+}
