@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bài tập 1</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	Giá: <span class="gia">150000</span>
+	<br>
+	Tổng tiền: <span class="total">150000</span>
+	<br>
+	<button class="btnTru">-</button>
+	<input type="text" class="txtSoluong" value="1" >
+	<button class="btnCong">+</button>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			
+			$('.btnCong').click(function(){		
+				var soluong = $('.txtSoluong').val() //lấy so lượng
+				soluong = parseInt(soluong)
+				var price = $('.gia').text();
+
+				if(soluong<10){
+					$('.txtSoluong').val(soluong+1)
+					console.log(soluong)
+					$('.total').text(price*(soluong+1))
+				}
+
+
+				
+
+			})
+
+			$('.btnTru').click(function(){	
+				var soluong = $('.txtSoluong').val() //lấy so lượng
+				soluong = parseInt(soluong)
+				var price = $('.gia').text();	
+				
+				if(soluong >1 ){
+					$('.txtSoluong').val(soluong-1)
+					console.log(soluong)
+					$('.total').text(price*(soluong-1))
+				}	
+					
+				
+
+			})
+
+		})
+	</script>
+</body>
+</html>

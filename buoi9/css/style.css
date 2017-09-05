@@ -1,0 +1,18 @@
+.box,.box2{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 20px;
+	color: #fff;
+	font-size: 30px
+}
+.box{
+		background-color: blue;
+}
+.box2{
+	background-color: green
+}
+
+.txtSoluong{
+	width: 50px
+}
